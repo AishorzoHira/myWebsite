@@ -1,0 +1,100 @@
+@import url(utilities.css);
+
+:root{
+    --primary: #ff0000;
+    --dark: #000000;
+    --ash: #292A2D;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark);
+}
+
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header{
+    width:100%;
+}
+
+header nav{
+    background-color: var(--ash);
+}
+
+header nav .left{
+    padding: 15px;
+}
+
+header nav .left img{
+    width: 40px;
+    height: 40px;
+}
+
+header nav .left h1{
+    font-family: 'Lobster Two', cursive;
+    color:var(--primary);
+    font-size: 40px;
+}
+
+header nav .right{
+    padding: 15px;
+}
+
+header nav .right a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 32px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    font-size: 13px;
+}   
+
+header nav .right a:hover{
+    color: var(--primary);
+}
+
+.hero{
+    padding: 46px 0;
+}
+
+.hero .left{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.hero .left h2{
+    font-size: 30px;
+    color: var(--pure);
+    margin-bottom: 5px;
+}
+
+.hero .left h1{
+    font-size: 40px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.hero .left p{
+    font-size: 13px;
+    color: var(--pure);
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.hero .right img{
+    width: 352px;
+}
